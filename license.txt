@@ -1,0 +1,11 @@
+Model Information:
+* title:	FLOYDS folding universe
+* source:	https://sketchfab.com/3d-models/floyds-folding-universe-dd2222f5a1934682bea187527b80911a
+* author:	FLOYD LEWIS (https://sketchfab.com/artoffloyd)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "FLOYDS folding universe" (https://sketchfab.com/3d-models/floyds-folding-universe-dd2222f5a1934682bea187527b80911a) by FLOYD LEWIS (https://sketchfab.com/artoffloyd) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

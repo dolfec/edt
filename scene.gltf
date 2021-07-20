@@ -1,0 +1,309 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5760,
+      "max": [
+        74.32634735107422,
+        42.84584045410156,
+        11.841099739074707
+      ],
+      "min": [
+        -47.52928924560547,
+        -15.963580131530762,
+        -2.618040084838867
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 69120,
+      "componentType": 5126,
+      "count": 5760,
+      "max": [
+        0.9992319345474243,
+        0.9999600052833557,
+        0.9999729990959167
+      ],
+      "min": [
+        -0.9992864727973938,
+        -0.9999601244926453,
+        -0.9999824166297913
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 34560,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1257,
+      "max": [
+        79.70832824707031
+      ],
+      "min": [
+        0.041669998317956924
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1257,
+      "max": [
+        0.5999799966812134,
+        38.634788513183594,
+        70.02046203613281
+      ],
+      "min": [
+        -65.9371337890625,
+        -63.44894027709961,
+        -7.606060028076172
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 5028,
+      "componentType": 5126,
+      "count": 1354,
+      "max": [
+        79.70832824707031
+      ],
+      "min": [
+        0.041669998317956924
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1354,
+      "max": [
+        0.7222546935081482,
+        0.721933901309967,
+        0.9382927417755127,
+        0.9500228762626648
+      ],
+      "min": [
+        -0.6059473156929016,
+        -0.7222811579704285,
+        -0.9405126571655273,
+        -0.00794004276394844
+      ],
+      "type": "VEC4"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 2,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 2,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "NurbsCircleAction.001",
+      "samplers": [
+        {
+          "input": 3,
+          "interpolation": "LINEAR",
+          "output": 4
+        },
+        {
+          "input": 5,
+          "interpolation": "LINEAR",
+          "output": 6
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "FLOYD LEWIS (https://sketchfab.com/artoffloyd)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/floyds-folding-universe-dd2222f5a1934682bea187527b80911a",
+      "title": "FLOYDS folding universe"
+    },
+    "generator": "Sketchfab-11.49.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 138240,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 138240,
+      "byteOffset": 138240,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10444,
+      "byteOffset": 276480,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15084,
+      "byteOffset": 286924,
+      "byteStride": 12,
+      "name": "floatBufferViews"
+    },
+    {
+      "buffer": 0,
+      "byteLength": 21664,
+      "byteOffset": 302008,
+      "byteStride": 16,
+      "name": "floatBufferViews"
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 323672,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Root",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.22059628258212793
+        ],
+        "roughnessFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "NurbsCircle_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.4912230968475342,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.3111804339459243e-16,
+        -1.4912230968475342,
+        0.0,
+        0.0,
+        1.4912230968475342,
+        3.3111804339459243e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        4
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "NurbsCircle",
+      "rotation": [
+        0.47244903445243835,
+        0.5269789099693298,
+        0.4805390238761902,
+        0.5178489089012146
+      ],
+      "translation": [
+        0.5999799966812134,
+        -0.5265200138092041,
+        0.21414999663829803
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "NurbsCircle_0"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        -0.29086000000000006,
+        0.9551700000000001,
+        -0.05519000000000001,
+        0.0,
+        -0.7711,
+        -0.19988000000000003,
+        0.6045200000000001,
+        0.0,
+        0.5663900000000001,
+        0.21839000000000003,
+        0.7946700000000001,
+        0.0,
+        4.076250000000001,
+        1.00545,
+        5.903860000000001,
+        1.0
+      ],
+      "name": "Lamp"
+    },
+    {
+      "name": "Lamp"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
